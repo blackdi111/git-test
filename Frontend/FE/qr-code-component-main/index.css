@@ -1,0 +1,63 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  margin-top: 10%;
+  display: grid;
+  justify-content: center;
+}
+
+.card {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 15rem;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+p {
+  font-size: 15px;
+}
+
+h1 {
+  font-size: large;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: small;
+  font-weight: 100;
+}
+
+.text-muted {
+  color:  hsl(218, 44%, 22%)
+;
+}
+
+img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 0.5rem;
+}
+
+.card > .discription {
+  margin: 0.3rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    margin-top: 25%;
+  }
+}
